@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f2ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* NAME */
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+header h3 {
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+/* NAVBAR */
+nav {
+  background: #0f172a;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* SECTION BOX */
+section {
+  background: white;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* HEADINGS */
+h2 {
+  color: #0ea5e9;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+ul {
+  padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
